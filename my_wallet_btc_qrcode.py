@@ -12,5 +12,5 @@ imagem.add_data('bc1qx6dyr4n9nsty56kf7xhqmd4ppw3lj6csgracpr')
 imagem.make(fit = True)
 # Criando e colorindo o QRCode
 qr = imagem.make_image(fill_color = 'white', back_color = '#F7931A')
-# Salvando  
+# Salvando em arquivo 
 qr.save('MyWalletBTCQRCode.png')
