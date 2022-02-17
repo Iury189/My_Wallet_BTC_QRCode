@@ -1,6 +1,6 @@
 import qrcode
 
-# Método para fazer configurações
+# Método para definir algumas configurações do QR Code
 imagem = qrcode.QRCode(
     version = 1,
     error_correction = qrcode.constants.ERROR_CORRECT_L,
@@ -12,5 +12,5 @@ imagem.add_data('bc1qx6dyr4n9nsty56kf7xhqmd4ppw3lj6csgracpr')
 imagem.make(fit = True)
 # Criando e colorindo o QRCode
 qr = imagem.make_image(fill_color = 'white', back_color = '#F7931A')
-# Salvando em arquivo 
+# Salvando em arquivo
 qr.save('MyWalletBTCQRCode.png')
