@@ -7,7 +7,7 @@ imagem = qrcode.QRCode(
     box_size = 10,
     border = 4
 )
-# Anexar o código do meu endereço de wallet ao QR Code
+# Anexar o código de uma de minhas BTC Adress Wallet ao QR Code
 imagem.add_data('bc1qx6dyr4n9nsty56kf7xhqmd4ppw3lj6csgracpr')
 imagem.make(fit = True)
 # Criando e colorindo o QRCode
